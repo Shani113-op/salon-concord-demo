@@ -1,0 +1,54 @@
+# Dependencies and generated assets
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+test-results/
+playwright-report/
+blob-report/
+
+# Local Concord state and databases (including SQLite sidecars)
+.concord/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local agent, editor and MCP setup; may contain absolute machine paths
+/.agents/
+/.codex/
+/.cursor/
+/.devin/
+/.gemini/
+/.grok/
+/.mcp.json
+/.github/mcp.json
+.vscode/
+.idea/
+
+# Secrets and local environment; keep portable examples
+.env
+.env.*
+!.env.example
+.npmrc
+.aws/
+credentials.json
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and temporary/OS files
+*.log
+logs/
+*.pid
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
